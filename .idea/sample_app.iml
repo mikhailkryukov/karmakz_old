@@ -133,7 +133,7 @@
     <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.0, rbenv: 2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, rbenv: 2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.10.3, rbenv: 2.0.0-p645) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="capybara (v2.4.4, rbenv: 2.0.0-p645) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="capybara (v2.1.0, rbenv: 2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="childprocess (v0.5.6, rbenv: 2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.1.0, rbenv: 2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.4.1, rbenv: 2.0.0-p645) [gem]" level="application" />
