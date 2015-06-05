@@ -7,12 +7,14 @@ gem 'actionmailer'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard-rspec'
 end
 
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
 
+  gem 'growl', '1.0.3'
 end
 
 gem 'sass-rails'
