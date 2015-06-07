@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails'
 gem 'activemodel'
 gem 'actionmailer'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'sqlite3'
