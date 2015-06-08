@@ -10,7 +10,6 @@ describe User do
 
   it { should respond_to(:name) }
   it { should respond_to(:email) }
-
   it { should be_valid }
 
   describe "when name is not present" do
@@ -24,7 +23,30 @@ describe User do
   end
 
   describe "when name is too long" do
-    before { @user.name = "a" * 51 }
+    before { @user.name = "a" * 5 }
     it { should_not be_valid }
   end
+
+  describe "when email address is already taken" do
+    before do
+      user_with_same_email = @user.dup
+      user_with_same_email.save
+    end
+end
+
+    describe "when email address is already taken" do
+      before do
+        user_with_same_email = @user.dup
+        user_with_same_email.email = @user.email.upcase
+        user_with_same_email.save
+      end
+
+
+
+
+    it { should_not be_valid }
+  end
+
+
+
 end
