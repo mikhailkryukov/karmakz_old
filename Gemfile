@@ -4,6 +4,7 @@ gem 'rails'
 gem 'activemodel'
 gem 'actionmailer'
 gem 'bootstrap-sass'
+gem 'bcrypt'
 
 group :development, :test do
   gem 'sqlite3'
