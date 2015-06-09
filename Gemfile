@@ -17,6 +17,7 @@ group :test do
   gem 'capybara'
 
   gem 'growl', '1.0.3'
+  gem 'factory_girl_rails'
 end
 
 gem 'sass-rails'
