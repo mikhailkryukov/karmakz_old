@@ -1,15 +1,16 @@
-<div class="center hero-unit">
+
+<div class="jumbotron center hero-unit">
   <h1>Welcome to the KARMA</h1>
-
-  <h2>
-    This is the draft home page for the
-    <a href="http://karma.kz/">karma.kz</a> application.
-  </h2>
-
+  <p>
+  <h5>The best way to find great local businesses in Kazakhstan</h5>
+  <h2>Our purpose is to connect people with great local businesses</h2>
+  </p>
 
 
+  <p><%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %></p>
 
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+
+
 </div>
 
 <!-- This is a comment <%= link_to image_tag("rails.png", alt: "Rails"), 'http://karma.kz/' %>-->
@@ -26,6 +27,9 @@
 
   <div class="col-xs-1">
     <%= link_to "Search", signup_path, class: "btn btn-large btn-primary" %>
+
   </div>
+
+
 
 </div>
