@@ -6,7 +6,26 @@
     <a href="http://karma.kz/">karma.kz</a> application.
   </h2>
 
+
+
+
   <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails"), 'http://karma.kz/' %>
+<!-- This is a comment <%= link_to image_tag("rails.png", alt: "Rails"), 'http://karma.kz/' %>-->
+
+<br>
+<div class="col-md-offset-2">
+  <div class="col-xs-4">
+    <input type="text" class="form-control" placeholder="What: coffee, notary, sushi, etc." placeholder=".col-xs-4" >
+  </div>
+
+  <div class="col-xs-4">
+    <input type="text" class="form-control" placeholder="Location: Astana, Almaty, etc." placeholder=".col-xs-4">
+  </div>
+
+  <div class="col-xs-1">
+    <%= link_to "Search", signup_path, class: "btn btn-large btn-primary" %>
+  </div>
+
+</div>
