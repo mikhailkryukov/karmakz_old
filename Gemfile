@@ -5,6 +5,9 @@ gem 'activemodel'
 gem 'actionmailer'
 gem 'bootstrap-sass'
 gem 'bcrypt'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
 
 group :development, :test do
   gem 'sqlite3'
