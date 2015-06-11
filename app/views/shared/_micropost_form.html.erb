@@ -1,0 +1,10 @@
+<%= form_for(@micropost) do |f| %>
+    <%= render 'shared/error_messages', object: f.object %>
+    <div class="field">
+      <h3>Add new nice post:</h3>
+      <%= f.text_area :content, placeholder: "Compose new micropost..." %>
+    </div>
+    <div class="col-xs-1">
+    <%= f.submit "Post", class: "btn btn-large btn-success" %>
+        </div>
+<% end %>
